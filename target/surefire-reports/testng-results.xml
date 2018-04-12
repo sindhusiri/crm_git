@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" My Test Suite" duration-ms="64304" started-at="2018-04-05T18:10:38Z" finished-at="2018-04-05T18:11:42Z">
+    <groups>
+    </groups>
+    <test name="Accounts Creation Test" duration-ms="64304" started-at="2018-04-05T18:10:38Z" finished-at="2018-04-05T18:11:42Z">
+      <class name="com.crm.testscripts.AdmiTest2">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.testscripts.AdmiTest2@7a36aefa]" name="init" is-config="true" duration-ms="31338" started-at="2018-04-05T18:10:38Z" finished-at="2018-04-05T18:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createContactusingcsvfile()[pri:0, instance:com.crm.testscripts.AdmiTest2@7a36aefa]" name="createContactusingcsvfile" duration-ms="32920" started-at="2018-04-05T18:11:09Z" description="Creating contact using csv file" finished-at="2018-04-05T18:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactusingcsvfile -->
+      </class> <!-- com.crm.testscripts.AdmiTest2 -->
+    </test> <!-- Accounts Creation Test -->
+  </suite> <!--  My Test Suite -->
+</testng-results>

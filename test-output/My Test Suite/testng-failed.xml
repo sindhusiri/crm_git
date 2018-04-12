@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ My Test Suite]">
+  <listeners>
+    <listener class-name="com.crm.utils.BaseListener"/>
+  </listeners>
+  <test thread-count="5" name="Accounts Creation Test(failed)">
+    <classes>
+      <class name="com.crm.testscripts.AdminTest">
+        <methods>
+          <include name="init"/>
+          <include name="createAccountDetailswithBillingandCopyBillingbtn"/>
+        </methods>
+      </class> <!-- com.crm.testscripts.AdminTest -->
+    </classes>
+  </test> <!-- Accounts Creation Test(failed) -->
+</suite> <!-- Failed suite [ My Test Suite] -->
